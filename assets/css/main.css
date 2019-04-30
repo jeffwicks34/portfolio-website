@@ -88,9 +88,7 @@ input, select, textarea {
 
 	body {
 		background: #F8F8F8;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 300;
-		font-size: 17pt;
+		font-weight: 400;
 		line-height: 1.75em;
 		color: #888;
 		-webkit-text-stroke: 0.1px;
@@ -122,6 +120,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Economica', sans-serif;
 		color: #666;
 		margin: 0 0 1em 0;
 		font-weight: 100;
@@ -211,6 +210,7 @@ input, select, textarea {
 	}
 
 	p {
+		font-family: 'Lora', serif;
 		text-align: justify;
 	}
 
@@ -2178,13 +2178,13 @@ input, select, textarea {
 	}
 
 		#header header h1 {
-			font-size: 2.25em;
+			font-size: 3.25em;
 			line-height: 1.25em;
 			margin-bottom: 0;
 		}
 
 		#header header p {
-			margin-top: 1.25em;
+			margin-top: 1em;
 			font-weight: 100;
 			padding: 0;
 			font-size: 1.25em;
@@ -2235,7 +2235,7 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #1e3c72, #66a6ff);
 			}
 
 			.main > .content.style2 {
